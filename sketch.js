@@ -8,11 +8,13 @@ function preload(){
 
 function setup() {
   createCanvas(windowWidth,6000);
-  image(landing_gialla,0,0,1080,landing_gialla.height);
+
 }
 
 function draw() {
-
+  push();
+  image(landing_gialla,0,0,1080,landing_gialla.height);
+  pop();
 }
 
 function windowResized() {
