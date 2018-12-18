@@ -1,9 +1,9 @@
-var landing_desktop;
-var landing_mobile;
+var landing_gialla;
+var landing_bianca;
 
 function preload(){
-  landing_desktop = loadImage('assets/Landing_Desktop.png');
-  landing_mobile = loadImage('assets/Landing_Mobile.png');
+  landing_gialla = loadImage('assets/Risorsa9.png');
+  landing_bianca = loadImage('assets/Risorsa10.png');
 }
 
 function setup() {
@@ -12,10 +12,10 @@ function setup() {
 }
 
 function draw() {
-  image(landing_desktop,0,0,width,landing_desktop.height);
+  image(landing_gialla,0,0,width,Risorsa9.height);
 
-  if (width < 600) {
-    image(landing_mobile,0,0,width,landing_mobile.height);
+  if (mouseIsPressed == true) {
+    image(landing_bianca,0,0,width,Risorsa10.height);
   }
 
 }
