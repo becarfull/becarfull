@@ -7,7 +7,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(windowWidth,3000);
+  createCanvas(windowWidth,6000);
 
 }
 
