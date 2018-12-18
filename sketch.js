@@ -12,11 +12,7 @@ function setup() {
 }
 
 function draw() {
-  image(landing_gialla,0,0,width,landing_gialla.height);
-
-  if (mouseIsPressed == true) {
-    image(landing_bianca,0,0,width,landing_bianca.height);
-  }
+  image(landing_gialla,0,0,375,landing_gialla.height);
 
 }
 
