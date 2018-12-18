@@ -2,7 +2,7 @@ var landing_gialla;
 var landing_bianca;
 
 function preload(){
-  landing_gialla = loadImage('assets/Risorsa9.png');
+  landing_gialla = loadImage('assets/Risorsa9.jpg');
   landing_bianca = loadImage('assets/Risorsa10.png');
 }
 
