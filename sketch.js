@@ -13,7 +13,7 @@ function setup() {
 
 function draw() {
   push();
-  image(landing_gialla,0,0,375,landing_gialla.height);
+  image(landing_gialla,0,0,1080,landing_gialla.height);
   pop();
 }
 
